@@ -1,6 +1,13 @@
 # SOFR Swap Curve PCA: Rich / Cheap
 
-Everything is in one notebook: **`sofr_swap_pca.ipynb`**.
+| Notebook | What it is |
+|---|---|
+| **`pca_fly_analysis.ipynb`** | Trader-facing PCA rich/cheap on SOFR **flies**: point-in-time residuals, fly z-scores, backtest (ex costs), IS/OOS, live `score_today()` snapshot, short-history mode |
+| `sofr_swap_pca.ipynb` | First version: per-tenor residuals, PC1/PC2-hedged flies with costs |
+
+Both read the simulated levels in `sofr_swap_rates_simulated.csv`.
+
+### `sofr_swap_pca.ipynb`
 
 1. Simulated SOFR swap curve (3y–15y, 20y, 25y, 30y), 2016–2025
 2. PCA on daily changes: level / slope / curvature
