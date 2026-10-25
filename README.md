@@ -13,6 +13,9 @@ pip install -r requirements.txt
 jupyter notebook sofr_swap_pca.ipynb
 ```
 
+The simulated daily levels are also saved as **`sofr_swap_rates_simulated.csv`** (date × tenor, rates in %).
+The notebook regenerates the same data with a fixed seed.
+
 To use real data, replace the `rates = simulate_sofr_curve()` line in Section 1 with a DataFrame of
 rates in percent, indexed by date, with columns `3y … 30y`. Results on simulated data illustrate the
 method only.
