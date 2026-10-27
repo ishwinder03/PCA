@@ -3,6 +3,7 @@
 | Notebook | What it is |
 |---|---|
 | **`pca_fly_analysis.ipynb`** | Trader-facing PCA rich/cheap on SOFR **flies**: point-in-time residuals, fly z-scores, backtest (ex costs), IS/OOS, live `score_today()` snapshot, short-history mode |
+| **`pca_fly.ipynb`** | Lean 5s7s10s fly: rolling 500d PCA fair value, z / MAD-z, AR(1) half-life + ADF, PC-neutral 3- and 4-leg weights, backtest with costs (carry hook), FV stability check |
 | **`regime_pca_fair_value.ipynb`** | Plain vs regime-matched PCA fair value for SOFR flies: matched historical 3M windows, latest-day rich/cheap table, matching diagnostics, 10-day reversal check (no P&L) |
 | `sofr_swap_pca.ipynb` | First version: per-tenor residuals, PC1/PC2-hedged flies with costs |
 

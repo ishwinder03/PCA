@@ -3,3 +3,4 @@ pandas
 matplotlib
 jinja2
 jupyter
+statsmodels
